@@ -1,5 +1,6 @@
 .container {
     border-style: solid;
-    border-color: black;
-    border-width: 2px;
+    border-color: darkgrey;
+    border-width: 3px;
+    border-radius: 5px;
 }
