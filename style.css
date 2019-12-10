@@ -5,14 +5,15 @@
     border-radius: 5px;
 }
 
-.media {
+.card-body {
     border-style: solid;
     border-color: darkgrey;
     border-width: 3px;
     border-radius: 5px;
     float: left;
-    margin-top: 10px; 
+    
 }
+
 
 .mt-0 {
     text-align: center; 
