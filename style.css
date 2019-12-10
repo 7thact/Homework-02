@@ -10,13 +10,14 @@
     border-color: darkgrey;
     border-width: 3px;
     border-radius: 5px;
-    float: left;
-    
+    text-align: left;
+    max-width: 70%;
+    ;
 }
 
-
-.mt-0 {
-    text-align: center; 
+.card-body {
+   float: left;
+   margin: 0 0 0 10px;
 }
 
 .card-header {
