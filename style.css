@@ -1,3 +1,4 @@
+/* default */
 .container {
     border-style: solid;
     border-color: darkgrey;
@@ -25,3 +26,24 @@
     vertical-align: middle;
     padding: 30px;
 }
+
+
+/* if the size is under 760 */
+@media (max-width: 760px) {
+    .card-img { ;}
+    .card-body {; }
+}
+/* if the size is under 480 */
+@media (max-width: 480px) {
+    .card-img { ;}
+}
+
+
+
+/*
+    something should be diff with each size fo the screen
+    // on big screen be red
+    // on tablet size be blue
+    // on phone size be green
+
+*/
