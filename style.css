@@ -6,7 +6,7 @@
     border-radius: 5px;
 }
 
-.card-body {
+/* .card-body {
     border-style: solid;
     border-color: darkgrey;
     border-width: 3px;
@@ -14,19 +14,41 @@
     text-align: left;
     max-width: 70%;
     ;
+} */
+
+.card {
+    border: none;
+}
+
+.portfolio {
+    background-color: rgb(76, 167, 167);
+    text-align: center;
+    opacity: 90%;
+    color: white;
 }
 
 .card-body {
    float: left;
-   margin: 0 0 0 10px;
+   margin: 30px;
 }
 
 .card-header {
     text-align: center;
     vertical-align: middle;
     padding: 30px;
+    background-color: rgb(142, 192, 149);
 }
 
+#picture {
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+    border: 5px solid rgb(142, 192, 149);
+
+}
 
 /* if the size is under 760 */
 @media (max-width: 760px) {
